@@ -12,7 +12,9 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginRight="5dp"
-        tools:srcCompat="@tools:sample/avatars[11]" />
+        android:scaleType="fitCenter"
+        tools:src="@tools:sample/avatars"
+        tools:srcCompat="@id/ivProfileImage" />
 
     <TextView
         android:id="@+id/tvScreenName"
